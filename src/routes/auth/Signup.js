@@ -98,7 +98,9 @@ const Signup = () => {
           >
             <VscClose className="w-5 h-5 font-bold" />
           </Link>
-          <h2 className="text-center font-bold text-primary">Signup to BETI</h2>
+          <h2 className="text-center font-bold text-primary">
+            Signup to EYOON
+          </h2>
 
           {/* Signup Form */}
           <form className="mt-4" onSubmit={handleSubmit}>

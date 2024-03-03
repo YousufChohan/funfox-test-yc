@@ -66,7 +66,7 @@ const Header = () => {
           }`}
           to={"/"}
         >
-          BETI
+          EYOON
         </Link>
         <span
           className={`w-0 h-[1px] bg-black duration-400 transition-all group-hover:w-full ${

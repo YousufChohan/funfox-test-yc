@@ -62,7 +62,7 @@ export default function App() {
             <li></li>
           </ul>
           <h1 className="text-primary text-3xl font-bold text-center md:text-right">
-            Welcome to BETI
+            Welcome to EYOON
           </h1>
 
           <h2 className="text-black text-1xl font-bold text-center md:text-right">
@@ -88,7 +88,7 @@ export default function App() {
         <div className="h-[1px] bg-gray-300 sm:w-10/12 mb-2 w-full" />
 
         <h1 className="text-primary md:text-3xl text-2xl font-bold text-center ">
-          About BETI
+          About EYOON
         </h1>
         <p className="text-base font-medium text-center max-w-[900px] mt-5 text-gray-700">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -199,7 +199,7 @@ export default function App() {
         <img
           className="sm:mt-20 rounded-2xl"
           src={intro}
-          alt="Introduction to BETI (SANPEC)"
+          alt="Introduction to EYOON"
         />
         <div className="Rectangle95  bg-white rounded-lg" />
       </div>

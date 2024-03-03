@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="flex py-10 px-2 flex-col items-center justify-center w-100 bg-black gap-5">
         <div className="group font-bold flex flex-col sm:text-5xl text-2xl text-center">
           <Link className="text-white" to={"/"}>
-            BETI
+            EYOON
           </Link>
           <span className="w-0 h-[1px] bg-white duration-400 transition-all group-hover:w-full"></span>
         </div>
