@@ -19,6 +19,7 @@ import next from "./assets/images/next.png";
 import voice from "./assets/images/voice.png";
 import info from "./assets/images/info.png";
 import chevdown from "./assets/images/chev-down.png";
+import { Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -189,13 +190,13 @@ export default function App() {
             </div>
             <img src={chevdown} alt="chev down" className="py-2 px-4 w-11" />
           </div>
-          <button>
-            <img src={next} alt="next button"></img>
-          </button>
+          <Link to="page2">
+            <img src={next} alt="next Link"></img>
+          </Link>
         </div>
-        <button>
-          <img src={info} alt="info button"></img>
-        </button>
+        <Link>
+          <img src={info} alt="info Link"></img>
+        </Link>
       </div>
     </section>
   );

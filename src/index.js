@@ -9,6 +9,7 @@ import { PersistGate } from "redux-persist/integration/react";
 import Error from "./routes/Error";
 import { Provider } from "react-redux";
 import { store, persistor } from "./redux/store";
+import Page2 from "./Page2";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <App />,
+      },
+      {
+        path: "/page2",
+        element: <Page2 />,
       },
     ],
   },
