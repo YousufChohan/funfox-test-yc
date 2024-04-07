@@ -116,7 +116,9 @@ const Login = () => {
           >
             <VscClose className="w-5 h-5 font-bold" />
           </Link>
-          <h2 className="text-center font-bold text-primary">Login to EYOON</h2>
+          <h2 className="text-center font-bold text-primary">
+            Login to funfox
+          </h2>
 
           {/* Login Form */}
           <form className="mt-4" onSubmit={handleSubmit}>

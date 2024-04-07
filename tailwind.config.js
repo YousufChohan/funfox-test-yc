@@ -15,6 +15,9 @@ module.exports = {
         secondary: "#003d7b",
       },
     },
+    fontFamily: {
+      "short-stack": ["Short Stack", "sans-serif"],
+    },
   },
   plugins: [],
 };

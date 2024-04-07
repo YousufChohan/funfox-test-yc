@@ -99,7 +99,7 @@ const Signup = () => {
             <VscClose className="w-5 h-5 font-bold" />
           </Link>
           <h2 className="text-center font-bold text-primary">
-            Signup to EYOON
+            Signup to funfox
           </h2>
 
           {/* Signup Form */}

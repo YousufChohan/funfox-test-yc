@@ -20,7 +20,7 @@ export const login = createAsyncThunk(
       // console.log("Sending login request with params:", params);
       const response = await axios.post(`${REACT_APP_BASE_URL}/login`, params);
       console.log("Login response:", response.data);
-      toast.success("Welcome To EYOON");
+      toast.success("Welcome To funfox");
       return response.data;
     } catch (error) {
       console.error("Login failed xx:", error);
